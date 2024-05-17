@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <Link type="text/css" rel="stylesheet" href="MyCSS.css">
     <style>
-        img {
-            width: 100px;
+
+        #img1 {width: 100px;
             display: block;
             position: relative;
             margin: 10px;
             animation: myanim 5s infinite;
-        }
-        #img1 {animation-timing-function: ease-out;}
-        #img2{animation-timing-function: ease-in;}
+            animation-timing-function: ease-out;}
+        #img2{width: 100px;
+            display: block;
+            position: relative;
+            margin: 10px;
+            animation: myanim 5s infinite;
+            animation-timing-function: ease-in;}
         @keyframes myanim{
             from {left:0px;}
             to{left: 500px;}
@@ -21,9 +26,34 @@
     </style>
 </head>
 <body>
-    <img id="img1" src="https://cdn.pixabay.com/photo
+    <header>
+        <h1>My Blog Page</h1>
+    </header>
+    <nav>
+        <h1>Links</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="1.html">HTML</a></li>
+            <li><a href="2.html">CSS</a></li>
+            <li><a href="3.html">JAVA</a></li>
+            <li><a href="myani.html">mynaim1</a></li>
+            <li><a href="myani2.html">mynaim2</a></li>
+        </ul>
+        <figure>
+            <img src="1.jpeg" width="85" height="85" >
+        </figure>
+    </nav>
+    <section id="main">
+        <article>
+            Anime2
+            <img id="img1" src="https://cdn.pixabay.com/photo
 /2016/12/04/21/58/rabbit-1882699_1280.jpg">
     <img id="img2" src="https://cdn.pixabay.com/photo
 /2018/11/12/22/46/turtle-3811946_1280.jpg">
+            </p>
+        </article>
+    </section>
+    <footer>Copyright (c) 2023 Hong</footer>
+
 </body>
 </html>
