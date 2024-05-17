@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 100px;
+            display: block;
+            position: relative;
+            margin: 10px;
+            animation: myanim 5s infinite;
+        }
+        #img1 {animation-timing-function: ease-out;}
+        #img2{animation-timing-function: ease-in;}
+        @keyframes myanim{
+            from {left:0px;}
+            to{left: 500px;}
+        }
+    </style>
+</head>
+<body>
+    <img id="img1" src="https://cdn.pixabay.com/photo
+/2016/12/04/21/58/rabbit-1882699_1280.jpg">
+    <img id="img2" src="https://cdn.pixabay.com/photo
+/2018/11/12/22/46/turtle-3811946_1280.jpg">
+</body>
+</html>
